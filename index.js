@@ -30,6 +30,8 @@
 
 import {h, app} from 'hyperapp';
 import {Box, TextareaField, Menubar, MenubarItem} from '@osjs/gui';
+import osjs from 'osjs';
+import {name as applicationName} from './metadata.json';
 
 // File menu
 const createMenu = (current, actions, _) => ([
@@ -128,4 +130,4 @@ const createProcess = (core, args, options, metadata) => {
   return proc;
 };
 
-OSjs.make('osjs/packages').register('Textpad', createProcess);
+osjs.register(applicationName, createProcess);
