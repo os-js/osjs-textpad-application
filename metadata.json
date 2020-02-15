@@ -5,12 +5,14 @@
   "title": {
     "en_EN": "Textpad",
     "nb_NO": "Tekstblokk",
-    "fr_FR": "Bloc-notes"
+    "fr_FR": "Bloc-notes",
+    "pt_BR": "Bloco de Notas"
   },
   "description": {
     "en_EN": "Edit text files",
     "nb_NO": "Redigèr tekstfiler",
-    "fr_FR": "Bloc-notes"
+    "fr_FR": "Bloc-notes",
+    "pt_BR": "Editor de arquivos de texto"
   },
   "mimes": [
     "^text\/(.*)",
